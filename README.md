@@ -1,13 +1,13 @@
 🧠 Performance Evaluation of Machine Learning Models for Brain Disease Prediction
-📌 Overview
+📌 Project Overview
 
-This repository contains the complete experimental and analytical work conducted as part of our research paper titled:
+This repository contains the complete experimental work conducted as part of our academic research paper titled:
 
 “Performance Evaluation of AI Models for Multi-Class Brain Disease Prediction” 
 
 Brain_Disease (2)
 
-The project focuses on evaluating and comparing multiple Machine Learning models for predicting three critical brain diseases:
+The project evaluates and compares multiple Machine Learning models for predicting three brain-related diseases:
 
 Depression
 
@@ -15,28 +15,30 @@ Alzheimer’s Disease
 
 Brain Stroke
 
-The objective was to identify the most reliable models for medical prediction tasks by analyzing multiple performance metrics and visualizing results using clear, interpretable graphs.
+The emphasis is on model comparison, metric-based evaluation, and result visualization, which are critical in healthcare-related ML applications.
 
-💡 Why This Project Matters (Recruiter View)
+🧠 Why This Project Is Relevant 
 
-Demonstrates end-to-end ML workflow (data → preprocessing → modeling → evaluation → visualization)
+Demonstrates end-to-end Machine Learning workflow
 
-Shows understanding of medical ML challenges like class imbalance
+Shows ability to work on healthcare / medical datasets
 
-Applies model comparison and performance analysis, not just training
+Focuses on model evaluation, not just training
 
-Emphasizes interpretability and evaluation rigor, critical in healthcare AI
+Addresses class imbalance and metric interpretation
 
-Represents published academic research work, not a toy project
+Backed by formal research work
+
+Uses clear visualizations for technical communication
 
 🎯 Problem Statement
 
-Accuracy alone is insufficient for evaluating Machine Learning models in healthcare applications.
-This project aims to compare multiple ML classifiers across different brain disease datasets using robust evaluation metrics and visual analysis to support informed model selection.
+In medical Machine Learning, relying solely on accuracy can be misleading.
+This project aims to evaluate multiple ML classifiers using diverse performance metrics and visual analysis to identify the most reliable models for brain disease prediction.
 
 🧪 Datasets
 
-Publicly available CSV datasets (sourced from Kaggle) were used for:
+Publicly available CSV datasets were used for:
 
 Depression
 
@@ -44,11 +46,11 @@ Alzheimer’s Disease
 
 Brain Stroke
 
-Each dataset includes patient demographic and clinical attributes with binary class labels (0/1) indicating disease presence.
+Each dataset contains patient demographic and clinical attributes with binary class labels (0/1).
 
-🤖 Models Implemented
+🤖 Machine Learning Models Used
 
-The following supervised Machine Learning models were trained and evaluated for each disease:
+The following supervised learning models were implemented and compared:
 
 Logistic Regression (LR)
 
@@ -64,13 +66,13 @@ Linear Discriminant Analysis (LDA)
 
 📊 Evaluation Metrics
 
-To ensure reliability in a medical context, the models were evaluated using:
+Models were evaluated using:
 
 Accuracy
 
 Precision
 
-Recall (Sensitivity)
+Recall
 
 F1-Score
 
@@ -78,37 +80,41 @@ Confusion Matrix
 
 ROC–AUC Curve
 
-This approach highlights scenarios where high accuracy can still mask poor recall, especially in the Brain Stroke dataset.
+This multi-metric evaluation ensures reliable performance assessment, especially for imbalanced datasets such as Brain Stroke.
 
 📈 Visualization
 
-All results were visualized using Matplotlib for interpretability:
+All experimental results were visualized using Matplotlib, including:
 
-Disease-wise bar graphs for metric comparison
+Metric comparison bar graphs
 
-Heatmaps to analyze model performance correlations
+Heatmaps for model performance analysis
 
-Comparative plots to highlight strengths and weaknesses of each classifier
+Disease-wise performance comparison plots
 
-🔍 Key Results (High-Level)
+These visualizations help interpret strengths and weaknesses of each model clearly.
+
+🔍 Key Insights
 
 Depression: Logistic Regression and Gradient Boosting achieved near-perfect performance
 
-Alzheimer’s Disease: Gradient Boosting and Random Forest showed the most balanced metrics
+Alzheimer’s Disease: Ensemble models (Gradient Boosting, Random Forest) showed the most balanced results
 
-Brain Stroke: Ensemble models performed best, revealing limitations of accuracy-only evaluation
+Brain Stroke: Highlighted the importance of recall and precision over accuracy alone
 
-Overall, ensemble techniques consistently outperformed traditional classifiers, reinforcing their suitability for healthcare ML applications.
+Overall, ensemble-based models consistently outperformed traditional classifiers.
 
 🛠️ Tech Stack
 
-Programming: Python
+Python
 
-Libraries: Scikit-learn, Pandas, NumPy
+Scikit-learn
 
-Visualization: Matplotlib
+Pandas, NumPy
 
-Environment: Jupyter Notebook
+Matplotlib
+
+Jupyter Notebook
 
 🤝 Contributors
 
@@ -118,14 +124,4 @@ Aakriti Khanna
 
 📄 Research Context
 
-This repository represents the practical implementation, experimentation, and analysis conducted for our research paper, including:
-
-model training
-
-metric evaluation
-
-result visualization
-
-comparative analysis
-
-It is intended to provide transparency, reproducibility, and hands-on insight into the research work.
+This repository represents the implementation, experimentation, evaluation, and visualization work carried out for our research paper, ensuring reproducibility and practical insight into the research methodology.
